@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sounds &amp; Recreation — recreate any sound on real synths</title>
+<meta name="description" content="An open-source AI toolkit that listens to a song, reverse-engineers its keyboard sound, and recreates it on real hardware synths over MIDI.">
+<meta property="og:title" content="Sounds & Recreation">
+<meta property="og:description" content="An open-source AI agent that recreates a song's keyboard sound on real synths.">
+<meta property="og:image" content="https://uribrecher.github.io/sounds-and-recreation/assets/img/hero.png">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/img/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16.png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/brand.css">
+</head>
+<body>
+
+<nav class="nav">
+  <a class="brand" href="/sounds-and-recreation/"><img src="assets/img/mark.webp" alt="Sounds & Recreation logo"> Sounds &amp; Recreation</a>
+  <div class="nav-links">
+    <a href="#repos">The Repos</a>
+    <a href="#how">How it works</a>
+    <a class="ghbtn" href="https://github.com/uribrecher">★ GitHub</a>
+  </div>
+</nav>
+
+<header class="hero wrap">
+  <div class="hero-art">
+    <picture>
+      <source srcset="assets/img/hero.webp" type="image/webp">
+      <img src="assets/img/hero.png" alt="Pipeline illustration: audio input flows through an analysis engine and MIDI data stream into a synthesizer, producing a recreated sound, under the title Sounds & Recreation — recreate any sound, analyze audio, control synths via MIDI.">
+    </picture>
+  </div>
+  <p class="lead">An open-source AI agent that listens to a song, reverse-engineers its keyboard sound, and dials it into your hardware synths over MIDI — built from composable MCP servers you can run, fork, and extend.</p>
+  <div class="cta">
+    <a class="btn primary" href="#repos">Explore the repos →</a>
+    <a class="btn ghost" href="https://github.com/uribrecher">★ Star on GitHub</a>
+  </div>
+</header>
+
+<section class="section" id="how">
+  <div class="wrap">
+    <div class="label">How it works</div>
+    <h2>From audio to your synth, automatically</h2>
+    <p class="sub">An AI agent orchestrates audio analysis and MIDI control to match a target sound on real hardware.</p>
+    <div class="steps">
+      <div class="step"><div class="n">1</div><h3>Listen</h3><p>Import a track and isolate the keyboard part.</p></div>
+      <div class="step"><div class="n">2</div><h3>Analyze</h3><p>Stem-separate, transcribe, and profile the tone.</p></div>
+      <div class="step"><div class="n">3</div><h3>Reason</h3><p>The agent picks a synth and matching patch.</p></div>
+      <div class="step"><div class="n">4</div><h3>Configure</h3><p>It sets the synth's parameters over MIDI.</p></div>
+      <div class="step"><div class="n">5</div><h3>Compare</h3><p>Render, A/B against the target, refine.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="repos">
+  <div class="wrap">
+    <div class="label">The collection</div>
+    <h2>Five repos, one pipeline</h2>
+    <p class="sub">Each piece is independent and useful on its own — an MCP server, an analysis toolkit, or the agent that ties them together.</p>
+    <div class="cards">
+      <div class="card" style="--accent:#8b7cf0">
+        <span class="tag">TypeScript</span><h3>keyboards-mcp</h3>
+        <p>MCP server that drives MIDI keyboards — Nord Electro 5D, Roland JUNO-X, Prophet-6 — plus a mock-device runner.</p>
+        <a class="more" href="https://github.com/uribrecher/keyboards-mcp">View on GitHub →</a>
+      </div>
+      <div class="card" style="--accent:#34cdbf">
+        <span class="tag" style="background:#34cdbf">Python</span><h3>audio-analysis-mcp</h3>
+        <p>Stem separation, spectrum analysis, transcription, note isolation and comparison — exposed as MCP tools.</p>
+        <a class="more" style="color:#1aa99b" href="https://github.com/uribrecher/audio-analysis-mcp">View on GitHub →</a>
+      </div>
+      <div class="card" style="--accent:#56a8ef">
+        <span class="tag" style="background:#56a8ef">TypeScript</span><h3>sound-recreation-agent</h3>
+        <p>The AI agent (Vercel AI SDK) that orchestrates the MCP servers to recreate a target sound end to end.</p>
+        <a class="more" style="color:#3a78c8" href="https://github.com/uribrecher/sound-recreation-agent">View on GitHub →</a>
+      </div>
+      <div class="card" style="--accent:#f48fb1">
+        <span class="tag" style="background:#f48fb1">Research</span><h3>reverse-synth-research</h3>
+        <p>Design notes for the ML analysis pipeline — amplitude/ADSR, modulation, and tone-generation experts.</p>
+        <a class="more" style="color:#d96a93" href="https://github.com/uribrecher/reverse-synth-research">View on GitHub →</a>
+      </div>
+      <div class="card" style="--accent:#f7c948">
+        <span class="tag" style="background:#e0ad1f">Tooling</span><h3>macos-packager</h3>
+        <p>Bundles the runtime pieces into a single macOS app — one-click bring-up of the whole stack.</p>
+        <a class="more" style="color:#c79a16" href="https://github.com/uribrecher/macos-packager">View on GitHub →</a>
+      </div>
+      <div class="card" style="--accent:#283163">
+        <span class="tag" style="background:#283163">Open source</span><h3>Get involved</h3>
+        <p>Everything is GPL-3.0. Star a repo, file an issue, or open a PR — contributions welcome.</p>
+        <a class="more" style="color:#283163" href="https://github.com/uribrecher">Browse on GitHub →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="brand"><img src="assets/img/mark.webp" alt=""> <span>Sounds &amp; Recreation</span></div>
+    Open-source audio recreation · GPL-3.0 · <a href="https://github.com/uribrecher">GitHub</a>
+  </div>
+</footer>
+
+</body>
+</html>
