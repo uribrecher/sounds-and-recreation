@@ -13,4 +13,8 @@ hardware synths over MIDI.
 - [reverse-synth-research](https://github.com/uribrecher/reverse-synth-research) — ML analysis design notes
 - [macos-packager](https://github.com/uribrecher/macos-packager) — macOS app packaging
 
+## Star history
+
+[![Star History Chart](https://api.star-history.com/svg?repos=uribrecher/keyboards-mcp,uribrecher/audio-analysis-mcp,uribrecher/sound-recreation-agent,uribrecher/reverse-synth-research,uribrecher/macos-packager,uribrecher/sounds-and-recreation&type=Date)](https://star-history.com/#uribrecher/keyboards-mcp&uribrecher/audio-analysis-mcp&uribrecher/sound-recreation-agent&uribrecher/reverse-synth-research&uribrecher/macos-packager&uribrecher/sounds-and-recreation&Date)
+
 GPL-3.0.

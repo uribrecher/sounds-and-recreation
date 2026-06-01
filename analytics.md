@@ -24,7 +24,9 @@ All 6 repos on one chart, full history:
 https://star-history.com/#uribrecher/keyboards-mcp&uribrecher/audio-analysis-mcp&uribrecher/sound-recreation-agent&uribrecher/reverse-synth-research&uribrecher/macos-packager&uribrecher/sounds-and-recreation&Date
 
 ### Contributors / PRs / issues — OSS Insight
-Per-repo community & contribution depth:
+Per-repo community & contribution depth.
+
+> ⚠️ **These 404 while the repos are brand-new.** OSS Insight only covers repos already in its GitHub-events dataset (8B+ rows from GH Archive). With ~0 stars and almost no history, our repos aren't indexed yet, so the per-repo pages return *not found*. They start working once the repos accumulate public activity. (The URL format is correct — verified against indexed repos like `facebook/react`.)
 
 - keyboards-mcp — https://ossinsight.io/analyze/uribrecher/keyboards-mcp
 - audio-analysis-mcp — https://ossinsight.io/analyze/uribrecher/audio-analysis-mcp
