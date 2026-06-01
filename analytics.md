@@ -38,4 +38,4 @@ Per-repo community & contribution depth:
 - **GitHub native Insights → Traffic** (clones/views/referrers): 14-day retention only, and overlaps GoatCounter — not worth persisting. It's a built-in tab on each repo if ever needed.
 - **GA4** (most ad-blocked + forces a cookie banner/CMP), **Cloudflare Web Analytics** (free tier keeps only ~30 days), self-hosted analytics, and any GitHub Action / cron / CSV metrics pipeline.
 
-See the design spec: `docs/superpowers/specs/2026-06-01-analytics-design.md`.
+_Design rationale lives in the project's analytics design spec (kept with the project planning docs, outside this repo)._
