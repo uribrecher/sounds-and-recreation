@@ -15,6 +15,12 @@ hardware synths over MIDI.
 
 ## Star history
 
-[![Star History Chart](https://api.star-history.com/svg?repos=uribrecher/keyboards-mcp,uribrecher/audio-analysis-mcp,uribrecher/sound-recreation-agent,uribrecher/reverse-synth-research,uribrecher/macos-packager,uribrecher/sounds-and-recreation&type=Date)](https://star-history.com/#uribrecher/keyboards-mcp&uribrecher/audio-analysis-mcp&uribrecher/sound-recreation-agent&uribrecher/reverse-synth-research&uribrecher/macos-packager&uribrecher/sounds-and-recreation&Date)
+<a href="https://www.star-history.com/?type=date&repos=uribrecher%2Fkeyboards-mcp%2Curibrecher%2Faudio-analysis-mcp%2Curibrecher%2Fsound-recreation-agent%2Curibrecher%2Freverse-synth-research%2Curibrecher%2Fmacos-packager%2Curibrecher%2Fsounds-and-recreation">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=uribrecher/keyboards-mcp%2Curibrecher/audio-analysis-mcp%2Curibrecher/sound-recreation-agent%2Curibrecher/reverse-synth-research%2Curibrecher/macos-packager%2Curibrecher/sounds-and-recreation&type=date&theme=dark&legend=top-left" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=uribrecher/keyboards-mcp%2Curibrecher/audio-analysis-mcp%2Curibrecher/sound-recreation-agent%2Curibrecher/reverse-synth-research%2Curibrecher/macos-packager%2Curibrecher/sounds-and-recreation&type=date&legend=top-left" />
+    <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=uribrecher/keyboards-mcp%2Curibrecher/audio-analysis-mcp%2Curibrecher/sound-recreation-agent%2Curibrecher/reverse-synth-research%2Curibrecher/macos-packager%2Curibrecher/sounds-and-recreation&type=date&legend=top-left" />
+  </picture>
+</a>
 
 GPL-3.0.
