@@ -14,6 +14,7 @@ Part of the flow below — **the audio-analysis panel, click-a-section → keybo
 - Frame the unbuilt beats as **"the workflow we're building"**, not a shipped feature. This is a recruitment pitch, not a product launch — *being early is the ask.*
 - **What's real today** (safe to show as-is): the MCP servers (`keyboards-mcp`, `audio-analysis-mcp`), the mock-runner UI + model picker, MIDI parameter control (`set_parameters`), and the audio-analysis tools (import, stem-separate, spectrum, transcribe, isolate).
 - **What's target / to be staged as mockup or b-roll:** the in-UI audio-analysis panel, the section-click → JUNO-X/Prophet-6/Nord popup, and the agent's reverse-synth auto-patching. Keep VO loose over these beats so it covers cuts/mockups.
+- **The "humbler hardware" angle (intentional):** the b-roll synth is your **real Sequential** — a more affordable, less-capable cousin of the Prophet-6, *not* the synth from the record. That's a feature, not a caveat: it proves the tool adapts the sound to whatever gear you actually own. The payoff line leans into this (*"your gear, your sound"*). The tool's selected profile is the **Prophet-6** (its closest supported model); the lower-third names the actual board you play.
 - The CTA already says "it's just getting started" — let the `🚧` badge + "come build it with me" carry the disclosure honestly.
 
 ---
@@ -54,18 +55,18 @@ Part of the flow below — **the audio-analysis panel, click-a-section → keybo
 **On-screen:** `3 · Pick the part you love`
 
 ### `[0:42–0:52]` CHOOSE HARDWARE → AGENT WORKS
-**Visual:** click chorus → popup **JUNO-X · Prophet-6 · Nord Electro 5D** → pick **JUNO-X**. UI shifts to the JUNO-X mock; chat box scrolls (agent calls the reverse-synth tool); zoom on a slider that races and settles.
+**Visual:** click chorus → popup **JUNO-X · Prophet-6 · Nord Electro 5D** → pick **Prophet-6**. UI shifts to the Prophet-6 mock; chat box scrolls (agent calls the reverse-synth tool); zoom on a slider that races and settles.
 **VO:**
-> "I pick my JUNO-X. The agent dials in the patch for me—live, over MIDI. Watch the knobs move."
+> "I pick the Prophet-6. The agent dials in the patch for me—live, over MIDI. Watch the knobs move."
 
 **On-screen:** `4 · It sets up YOUR synth — over MIDI`
 
 ### `[0:52–1:05]` THE PAYOFF — play it
 **Visual:** b-roll of you playing the hardware; A/B the original track vs. your keyboard on the chorus line — they match.
 **VO:**
-> "And now…" *(play — let the sound carry 2–3s)* "…that's my keyboard. Same vibe, real hardware, under a minute."
+> "And now…" *(play — let the sound carry 2–3s)* "…that's it. And it's not even the synth from the record—it's my own simpler board, and it **still** nails it. Your gear, your sound—under a minute."
 
-**On-screen:** *(minimal — let the audio be the star)*
+**On-screen:** `played live on [your Sequential — confirm model]` (small lower-third)
 
 ### `[1:05–1:20]` CTA — recruit collaborators
 **Visual:** project title / repo URL / the 6-repo toolkit; GitHub ⭐ button.
