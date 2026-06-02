@@ -14,7 +14,7 @@ Part of the flow below — **the audio-analysis panel, click-a-section → keybo
 - Frame the unbuilt beats as **"the workflow we're building"**, not a shipped feature. This is a recruitment pitch, not a product launch — *being early is the ask.*
 - **What's real today** (safe to show as-is): the MCP servers (`keyboards-mcp`, `audio-analysis-mcp`), the mock-runner UI + model picker, MIDI parameter control (`set_parameters`), and the audio-analysis tools (import, stem-separate, spectrum, transcribe, isolate).
 - **What's target / to be staged as mockup or b-roll:** the in-UI audio-analysis panel, the section-click → JUNO-X/Prophet-6/Nord popup, and the agent's reverse-synth auto-patching. Keep VO loose over these beats so it covers cuts/mockups.
-- **The "humbler hardware" angle (intentional):** the b-roll synth is a **Sequential FourM** — a 4-voice poly, more affordable and portable than (and less capable than) the Prophet-5/6, *not* the synth from the record. That's a feature, not a caveat on two fronts: (1) it proves the tool adapts the sound to whatever gear you actually own, and (2) it widens the appeal to hobbyist/budget players who can't drop Prophet-5 (vintage, very pricey) or even Prophet-6 (modern reissue, still not cheap) money. The payoff line leans into this (*"your gear, your sound"*). The tool's selected profile is the **Prophet-6** (its closest supported model); the lower-third names the actual board you play.
+- **The "humbler hardware" angle (intentional):** the b-roll synth is a **Sequential FourM** — a 4-voice poly, more affordable and portable than (and less capable than) the Prophet-5/6, *not* the synth from the record. That's a feature, not a caveat on two fronts: (1) it proves the tool adapts the sound to whatever gear you actually own, and (2) it widens the appeal to hobbyist/budget players who can't drop Prophet-5 (vintage, very pricey) or even Prophet-6 (modern reissue, still not cheap) money. The payoff line leans into this (*"your gear, your sound"*). The tool's selected profile is the **Prophet-6** (its closest supported model); the lower-third names the **actual board played — confirmed Sequential FourM, not a placeholder.**
 - The CTA already says "it's just getting started" — let the `🚧` badge + "come build it with me" carry the disclosure honestly.
 
 ---
@@ -57,7 +57,7 @@ Part of the flow below — **the audio-analysis panel, click-a-section → keybo
 ### `[0:42–0:52]` CHOOSE HARDWARE → AGENT WORKS
 **Visual:** click chorus → popup **JUNO-X · Prophet-6 · Nord Electro 5D** → pick **Prophet-6**. UI shifts to the Prophet-6 mock; chat box scrolls (agent calls the reverse-synth tool); zoom on a slider that races and settles.
 **VO:**
-> "I pick the Prophet-6. The agent dials in the patch for me—live, over MIDI. Watch the knobs move."
+> "I pick the Prophet-6. The agent dials in the patch for me—live, over MIDI. Watch the on-screen controls move."
 
 **On-screen:** `4 · It sets up YOUR synth — over MIDI`
 
@@ -77,7 +77,7 @@ Part of the flow below — **the audio-analysis panel, click-a-section → keybo
 
 ---
 
-**Budget:** ~200 words VO ≈ 80s. The CTA names the project's "triple identity" audience on purpose (synths / audio-ML / AI-agents) so all three feel invited.
+**Budget:** ~200 words VO ≈ 80s. The CTA names the project's "triple identity" audience on purpose (synths / audio ML / AI agents) so all three feel invited.
 
 ---
 
