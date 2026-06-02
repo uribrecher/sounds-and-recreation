@@ -14,7 +14,7 @@ Part of the flow below — **the audio-analysis panel, click-a-section → keybo
 - Frame the unbuilt beats as **"the workflow we're building"**, not a shipped feature. This is a recruitment pitch, not a product launch — *being early is the ask.*
 - **What's real today** (safe to show as-is): the MCP servers (`keyboards-mcp`, `audio-analysis-mcp`), the mock-runner UI + model picker, MIDI parameter control (`set_parameters`), and the audio-analysis tools (import, stem-separate, spectrum, transcribe, isolate).
 - **What's target / to be staged as mockup or b-roll:** the in-UI audio-analysis panel, the section-click → JUNO-X/Prophet-6/Nord popup, and the agent's reverse-synth auto-patching. Keep VO loose over these beats so it covers cuts/mockups.
-- **The "humbler hardware" angle (intentional):** the b-roll synth is your **real Sequential** — a more affordable, less-capable cousin of the Prophet-6, *not* the synth from the record. That's a feature, not a caveat: it proves the tool adapts the sound to whatever gear you actually own. The payoff line leans into this (*"your gear, your sound"*). The tool's selected profile is the **Prophet-6** (its closest supported model); the lower-third names the actual board you play.
+- **The "humbler hardware" angle (intentional):** the b-roll synth is a **Sequential FourM** — a 4-voice poly, more affordable and portable than (and less capable than) the Prophet-5/6, *not* the synth from the record. That's a feature, not a caveat on two fronts: (1) it proves the tool adapts the sound to whatever gear you actually own, and (2) it widens the appeal to hobbyist/budget players who can't drop Prophet-5 (vintage, very pricey) or even Prophet-6 (modern reissue, still not cheap) money. The payoff line leans into this (*"your gear, your sound"*). The tool's selected profile is the **Prophet-6** (its closest supported model); the lower-third names the actual board you play.
 - The CTA already says "it's just getting started" — let the `🚧` badge + "come build it with me" carry the disclosure honestly.
 
 ---
@@ -66,7 +66,7 @@ Part of the flow below — **the audio-analysis panel, click-a-section → keybo
 **VO:**
 > "And now…" *(play — let the sound carry 2–3s)* "…that's it. And it's not even the synth from the record—it's my own simpler board, and it **still** nails it. Your gear, your sound—under a minute."
 
-**On-screen:** `played live on [your Sequential — confirm model]` (small lower-third)
+**On-screen:** `played live on a Sequential FourM — a 4-voice, budget-friendly poly` (small lower-third)
 
 ### `[1:05–1:20]` CTA — recruit collaborators
 **Visual:** project title / repo URL / the 6-repo toolkit; GitHub ⭐ button.
