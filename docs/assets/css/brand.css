@@ -39,7 +39,7 @@ code{font-family:"JetBrains Mono",ui-monospace,Menlo,monospace}
 .nav{display:flex;align-items:center;justify-content:space-between;
    max-width:var(--maxw);margin:0 auto;padding:22px 40px;position:relative;z-index:3}
 .brand{display:flex;align-items:center;gap:11px;font-weight:800;font-size:20px;color:var(--ink)}
-.brand img{width:34px;height:34px;display:block}
+.brand img{width:34px;height:34px;display:block;flex:none}
 .nav-links{display:flex;gap:26px;align-items:center;font-weight:500;font-size:14.5px}
 .nav-links a{color:var(--ink)}
 .nav-links a:not(.ghbtn):hover{color:var(--accent-ink)}
@@ -149,7 +149,7 @@ a:focus-visible,.btn:focus-visible,.card:focus-visible{outline:2px solid var(--i
 /* ---- footer ---- */
 .footer{background:var(--ink);color:#c9cfe6;padding:42px 0;text-align:center;font-size:14px;margin-top:60px}
 .footer .fb{display:flex;align-items:center;gap:10px;justify-content:center;color:#fff;font-family:Poppins;font-weight:700;margin-bottom:10px;font-size:17px}
-.footer .fb img{width:28px;height:28px}
+.footer .fb img{width:28px;height:28px;flex:none}
 .footer a{color:#fff;text-decoration:underline}
 
 /* ---- responsive ---- */
