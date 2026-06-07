@@ -13,6 +13,10 @@ hardware synths over MIDI.
 - [reverse-synth-research](https://github.com/uribrecher/reverse-synth-research) — ML analysis design notes
 - [macos-packager](https://github.com/uribrecher/macos-packager) — macOS app packaging
 
+## Contributing
+
+New here? See **[CONTRIBUTING.md](CONTRIBUTING.md)** for the repo map and how to get started, or jump straight into [Discussions](https://github.com/uribrecher/sounds-and-recreation/discussions). You don't need to be a collaborator — fork + PR is all it takes.
+
 ## Star history
 
 <a href="https://www.star-history.com/?type=date&repos=uribrecher%2Fkeyboards-mcp%2Curibrecher%2Faudio-analysis-mcp%2Curibrecher%2Fsound-recreation-agent%2Curibrecher%2Freverse-synth-research%2Curibrecher%2Fmacos-packager%2Curibrecher%2Fsounds-and-recreation">
