@@ -31,7 +31,9 @@ it obviously miss? The hard part is going from "what the sound is" to "which kno
 and that's exactly where I want feedback.
 
 It's free and open source (GPL-3.0), and you can try it on an on-screen mock synth if you
-don't want to hook up hardware: https://github.com/uribrecher/sounds-and-recreation
+don't want to hook up hardware — the mock lives in keyboards-mcp:
+https://github.com/uribrecher/keyboards-mcp (project overview:
+https://github.com/uribrecher/sounds-and-recreation)
 ```
 
 ### After you post

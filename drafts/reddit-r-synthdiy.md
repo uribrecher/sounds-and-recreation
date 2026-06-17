@@ -33,7 +33,8 @@ writing that up as open research in the repo rather than hiding it. If you've th
 audio-feature → synth-parameter inversion, I want to hear it.
 
 Repo + research notes: https://github.com/uribrecher/sounds-and-recreation
-You can run the whole thing against an on-screen mock synth with no hardware.
+You can run the whole thing against an on-screen mock synth with no hardware — the mock
+device is in keyboards-mcp: https://github.com/uribrecher/keyboards-mcp
 ```
 
 ### After you post

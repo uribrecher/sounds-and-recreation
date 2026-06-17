@@ -40,8 +40,10 @@ mock device or real hardware. What's still research: the deeper "reverse-synth" 
 maps audio features to specific ADSR/modulation/tone-generation parameters — that part is
 in-progress and documented in the open.
 
-You can run it without any hardware (there's a mock keyboard with a model-specific UI), and
-without an account. Repo + run steps: https://github.com/uribrecher/sounds-and-recreation
+You can run it without any hardware or an account — there's a mock keyboard with a
+model-specific UI. Run it / try it: https://github.com/uribrecher/sound-recreation-agent
+(the no-hardware mock synth lives in https://github.com/uribrecher/keyboards-mcp; project
+overview: https://github.com/uribrecher/sounds-and-recreation)
 [DEMO]
 
 It's GPL-3.0. I'd love feedback on the analysis→parameter mapping especially — that's the
