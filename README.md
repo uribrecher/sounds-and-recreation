@@ -2,7 +2,6 @@
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](./LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/uribrecher/sounds-and-recreation?style=flat&logo=github)](https://github.com/uribrecher/sounds-and-recreation/stargazers)
-[![Human in the Loop](https://madebyhuman.iamjarl.com/badges/loop-black.svg)](https://madebyhuman.iamjarl.com)
 
 Project home for **Sounds & Recreation** — an open-source toolkit and AI agent that
 listens to a song, reverse-engineers its keyboard sound, and recreates it on real
@@ -32,3 +31,7 @@ New here? See **[CONTRIBUTING.md](CONTRIBUTING.md)** for the repo map and how to
 </a>
 
 GPL-3.0.
+
+<p align="center">
+  <a href="https://madebyhuman.iamjarl.com"><img src="https://madebyhuman.iamjarl.com/badges/loop-black.svg" alt="Human in the Loop"></a>
+</p>
