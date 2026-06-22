@@ -12,8 +12,9 @@ Part of the flow below — **the audio-analysis panel, click-a-section → keybo
 
 - **Persistent on-screen badge** from the first frame: `🚧 concept demo · under active development`.
 - Frame the unbuilt beats as **"the workflow we're building"**, not a shipped feature. This is a recruitment pitch, not a product launch — *being early is the ask.*
-- **What's real today** (safe to show as-is): the MCP servers (`keyboards-mcp`, `audio-analysis-mcp`), the mock-runner UI + model picker, MIDI parameter control (`set_parameters`), and the audio-analysis tools (import, stem-separate, spectrum, transcribe, isolate).
-- **What's target / to be staged as mockup or b-roll:** the in-UI audio-analysis panel, the section-click → JUNO-X/Prophet-6/Nord popup, and the agent's reverse-synth auto-patching. Keep VO loose over these beats so it covers cuts/mockups.
+- **What's real today — film it as-is (it's more than you'd expect):** the **Sounds and Recreation app**'s **Song Analysis workbench** does the entire first half for real — import a track, then live **Demucs stem separation** + **SongFormer song-sections** + transcription with progress bars, rendering six zoomable, playable stem waveforms (including the **keyboards** stem) with colored section bands overlaid. Also real and on-screen: the keyboard **mock UIs**, the **model picker**, **MIDI `set_parameters`**, and a streaming **chat-agent** panel. Both MCP servers (`keyboards-mcp`, `audio-analysis-mcp`) are real.
+- **What's NOT built yet — stage as concept/mockup (the `🚧` beats):** (a) *acting on* a section — today the section bands are display-only, you can't click "the chorus" as a selection; (b) the section → **JUNO-X / Prophet-6 / Nord** picker popup; (c) the **reverse-synth** "derive parameters from the audio" tool; (d) the **audio → `set_parameters`** auto-patching (the patching plumbing exists, but nothing yet drives it *from* the analyzed audio). Keep VO loose over these so it covers cuts/mockups.
+- **The honest split:** everything up through *"here's the isolated keyboards stem + the chorus section"* is **real footage**; the *"pick a keyboard → the agent dials in the patch → knobs move"* beat is **the workflow we're building** — that's where the `🚧` badge earns its place.
 - **The "humbler hardware" angle (intentional):** the b-roll synth is a **Sequential FourM** — a 4-voice poly, more affordable and portable than (and less capable than) the Prophet-5/6, *not* the synth from the record. That's a feature, not a caveat on two fronts: (1) it proves the tool adapts the sound to whatever gear you actually own, and (2) it widens the appeal to hobbyist/budget players who can't drop Prophet-5 (vintage, very pricey) or even Prophet-6 (modern reissue, still not cheap) money. The payoff line leans into this (*"your gear, your sound"*). The tool's selected profile is the **Prophet-6** (its closest supported model); the lower-third names the **actual board played — confirmed Sequential FourM, not a placeholder.**
 - The CTA already says "it's just getting started" — let the `🚧` badge + "come build it with me" carry the disclosure honestly.
 
@@ -34,7 +35,7 @@ Part of the flow below — **the audio-analysis panel, click-a-section → keybo
 > "Normally that's hours on forums, guessing at knobs, chasing one patch. So I built an AI that does the listening for me."
 
 ### `[0:13–0:20]` THE TURN — open the tool
-**Visual:** focus on the mock-runner UI → click the **waveform icon** → audio-analysis panel slides in. Click **Import**, pick the mp3.
+**Visual:** focus on the **Sounds and Recreation app** → click the **waveform icon** → audio-analysis panel slides in. Click **Import**, pick the mp3.
 **VO:**
 > "I drop in the track—and hit **Analyze**."
 
@@ -48,7 +49,7 @@ Part of the flow below — **the audio-analysis panel, click-a-section → keybo
 **On-screen:** `2 · It analyzes the actual synth`
 
 ### `[0:30–0:42]` STEMS → PICK THE CHORUS
-**Visual:** stem waveforms + song sections appear; zoom into the **keyboard stem**; select the **chorus**.
+**Visual:** stem waveforms + song-section bands appear; zoom into the **keyboards stem** — the **chorus** band sits right there (today the bands are display-only; "selecting" it is a `🚧` beat).
 **VO:**
 > "There's the keyboard, isolated. This chorus—that's the part I want. Sounds like a subtractive synth to me."
 
