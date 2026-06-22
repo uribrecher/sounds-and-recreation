@@ -12,7 +12,7 @@ Part of the flow below — **the audio-analysis panel, click-a-section → keybo
 
 - **Persistent on-screen badge** from the first frame: `🚧 concept demo · under active development`.
 - Frame the unbuilt beats as **"the workflow we're building"**, not a shipped feature. This is a recruitment pitch, not a product launch — *being early is the ask.*
-- **What's real today** (safe to show as-is): the MCP servers (`keyboards-mcp`, `audio-analysis-mcp`), the mock-runner UI + model picker, MIDI parameter control (`set_parameters`), and the audio-analysis tools (import, stem-separate, spectrum, transcribe, isolate).
+- **What's real today** (safe to show as-is): the MCP servers (`keyboards-mcp`, `audio-analysis-mcp`), the **Sounds and Recreation app** + model picker, MIDI parameter control (`set_parameters`), and the audio-analysis tools (import, stem-separate, spectrum, transcribe, isolate).
 - **What's target / to be staged as mockup or b-roll:** the in-UI audio-analysis panel, the section-click → JUNO-X/Prophet-6/Nord popup, and the agent's reverse-synth auto-patching. Keep VO loose over these beats so it covers cuts/mockups.
 - **The "humbler hardware" angle (intentional):** the b-roll synth is a **Sequential FourM** — a 4-voice poly, more affordable and portable than (and less capable than) the Prophet-5/6, *not* the synth from the record. That's a feature, not a caveat on two fronts: (1) it proves the tool adapts the sound to whatever gear you actually own, and (2) it widens the appeal to hobbyist/budget players who can't drop Prophet-5 (vintage, very pricey) or even Prophet-6 (modern reissue, still not cheap) money. The payoff line leans into this (*"your gear, your sound"*). The tool's selected profile is the **Prophet-6** (its closest supported model); the lower-third names the **actual board played — confirmed Sequential FourM, not a placeholder.**
 - The CTA already says "it's just getting started" — let the `🚧` badge + "come build it with me" carry the disclosure honestly.
@@ -34,7 +34,7 @@ Part of the flow below — **the audio-analysis panel, click-a-section → keybo
 > "Normally that's hours on forums, guessing at knobs, chasing one patch. So I built an AI that does the listening for me."
 
 ### `[0:13–0:20]` THE TURN — open the tool
-**Visual:** focus on the mock-runner UI → click the **waveform icon** → audio-analysis panel slides in. Click **Import**, pick the mp3.
+**Visual:** focus on the **Sounds and Recreation app** → click the **waveform icon** → audio-analysis panel slides in. Click **Import**, pick the mp3.
 **VO:**
 > "I drop in the track—and hit **Analyze**."
 
